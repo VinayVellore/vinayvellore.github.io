@@ -2,7 +2,7 @@
     width: 331px;
     height: auto;
     display: block; /* Makes the image block-level to apply margin: auto */
-    margin: 0 auto; /* Centers the image horizontally */
+    margin: 30px auto 30px; /* Centers the image horizontally */
     border-radius: 16px; /* Adds curved edges with a 16px radius */
 }
 
@@ -59,14 +59,42 @@ body {
 .myname {
     text-align: center; /* Center aligns the text */
     font-weight: 350; /* Sets the font weight to 300 */
-    margin: 25px 400px; /* Adds top and bottom margin of 20px, left and right margin of 40px */
+    margin: 0px 400px 30px; /* Adds top and bottom margin of 20px, left and right margin of 40px */
     display: block; /* Ensures the paragraph is treated as a block-level element */
     font-size: 18px;
 }
 
 .horizontal-bar {
-    height: 4px; /* Height of the horizontal bar */
+    height: 1px; /* Height of the horizontal bar */
     background-color: black; /* Color of the bar */
-    margin: 20px 400px; /* Top and bottom margins of 20px, left and right margins of 400px to match the .myname paragraph */
+    margin: 0px 500px 40px; /* Top and bottom margins of 25px, left and right margins of 500px to match the .myname paragraph */
     display: block; /* Ensures the div is treated as a block-level element */
 }
+
+.JPM {
+    display: flex; /* Enable Flexbox */
+    align-items: start; /* Align items to the top */
+    justify-content: center; /* Center items horizontally */
+    flex-direction: row; /* Ensure items are laid out in a row */
+    margin: 0 400px 30px; /* Adjust the margins to suit your layout needs */
+}
+
+.JPMLogo, .JPMHeader {
+    margin: 0; /* Remove margins from children to control spacing from the container */
+}
+
+.JPMLogo {
+    width: 185px;
+    height: auto;
+    border-radius: 16px;
+    margin-right: 25px; /* Add some space between the logo and the header text */
+}
+
+.JPMHeader {
+    font-weight: 500;
+    font-size: 18px;
+    align-self: flex-start; /* Align this item at the start of the cross axis */
+    margin: 0; /* Adjust or remove margin as needed */
+}
+
+
