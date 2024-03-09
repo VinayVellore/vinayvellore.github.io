@@ -59,7 +59,14 @@ body {
 .myname {
     text-align: center; /* Center aligns the text */
     font-weight: 350; /* Sets the font weight to 300 */
-    margin: 20px 400px; /* Adds top and bottom margin of 20px, left and right margin of 40px */
+    margin: 25px 400px; /* Adds top and bottom margin of 20px, left and right margin of 40px */
     display: block; /* Ensures the paragraph is treated as a block-level element */
     font-size: 18px;
+}
+
+.horizontal-bar {
+    height: 4px; /* Height of the horizontal bar */
+    background-color: black; /* Color of the bar */
+    margin: 20px 400px; /* Top and bottom margins of 20px, left and right margins of 400px to match the .myname paragraph */
+    display: block; /* Ensures the div is treated as a block-level element */
 }
