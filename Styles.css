@@ -33,6 +33,7 @@ body, html {
     color: black; /* Black font color */
     text-decoration: none; /* No underline */
     padding: 0 15px; /* Spacing around the links */
+    font-size: 18px;
 }
 
 /* Separate styling for left and right nav items */
@@ -55,3 +56,10 @@ body {
     padding-top: 60px; /* Adjust based on your header's height */
 }
 
+.myname {
+    text-align: center; /* Center aligns the text */
+    font-weight: 350; /* Sets the font weight to 300 */
+    margin: 20px 400px; /* Adds top and bottom margin of 20px, left and right margin of 40px */
+    display: block; /* Ensures the paragraph is treated as a block-level element */
+    font-size: 18px;
+}
