@@ -67,7 +67,7 @@ body {
 .horizontal-bar {
     height: 1px; /* Height of the horizontal bar */
     background-color: black; /* Color of the bar */
-    margin: 0px 500px 40px; /* Top and bottom margins of 25px, left and right margins of 500px to match the .myname paragraph */
+    margin: 0px 500px 30px; /* Top and bottom margins of 25px, left and right margins of 500px to match the .myname paragraph */
     display: block; /* Ensures the div is treated as a block-level element */
 }
 
@@ -76,25 +76,38 @@ body {
     align-items: start; /* Align items to the top */
     justify-content: center; /* Center items horizontally */
     flex-direction: row; /* Ensure items are laid out in a row */
-    margin: 0 400px 30px; /* Adjust the margins to suit your layout needs */
-}
-
-.JPMLogo, .JPMHeader {
-    margin: 0; /* Remove margins from children to control spacing from the container */
+    margin: 0 400px 40px; /* Adjust the margins to suit your layout needs */
 }
 
 .JPMLogo {
     width: 185px;
     height: auto;
     border-radius: 16px;
-    margin-right: 25px; /* Add some space between the logo and the header text */
+    margin-right: 30px; /* Add some space between the logo and the text */
+}
+
+.JPMText {
+    display: flex;
+    flex-direction: column; /* Stack the header and sub-header vertically */
+}
+
+.JPMHeader, .JPMSubHeader {
+    margin: 0; /* Remove margin to tighten the space between header and sub-header */
 }
 
 .JPMHeader {
     font-weight: 500;
     font-size: 18px;
-    align-self: flex-start; /* Align this item at the start of the cross axis */
-    margin: 0; /* Adjust or remove margin as needed */
 }
 
+.JPMSubHeader {
+    font-weight: 500;
+    font-size: 14px;
+    color: #003559
+}
+
+.JPMDescription{
+    font-weight: 400;
+    font-size: 13px;
+}
 
