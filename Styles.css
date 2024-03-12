@@ -111,3 +111,70 @@ body {
     font-size: 13px;
 }
 
+.contact-info h2 {
+    text-align: center; /* Centers the text */
+    font-weight: 500; /* Semi-bold, adjust as needed */
+    font-size: 24px; /* Size of the text, adjust as needed */
+    padding-top: 20px; /* Adds space from the top */
+    margin: 0; /* Reset default margins */
+    padding-bottom: 20px; /* Space above the logos */
+}
+
+.SocialMedia {
+    display: flex; /* Use flexbox to center children */
+    justify-content: center; /* Center children horizontally */
+    flex-wrap: wrap; /* Allow the items to wrap as needed */
+    gap: 20px; /* This will add space between the logos */
+    padding-top: 20px; /* Add space from the top */
+    padding-bottom: 20px; /* Add space above the black bar */
+}
+
+.SocialMedia img {
+    margin-bottom: 20px; /* Space between the logos and the black bar */
+    filter: grayscale(0%);
+}
+
+.LinkedInLogo, .FBLogo, .TwitterLogo, .IGLogo {
+    width: 80px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.LinkedInLogo {
+    width: 80px;
+    height: auto;
+    border-radius: 16px;/* This will give you rounded corners if the logo is square */
+}
+.FBLogo {
+    width: 80px;
+    height: auto;
+    border-radius: 16px; /* This will give you rounded corners if the logo is square */
+}
+.TwitterLogo {
+    width: 80px;
+    height: auto;
+    border-radius: 16px; /* This will give you rounded corners if the logo is square */
+}
+.IGLogo {
+    width: 80px;
+    height: auto;
+    border-radius: 16px; /* This will give you rounded corners if the logo is square */
+}
+
+.black-bar {
+    height: 2px; /* Height of the black bar */
+    background-color: black; /* Color of the bar */
+    margin: 0 500px; /* Adds left and right margins to the bar */
+    width: calc(100% - 1000px); /* Subtract the left and right margins from the 100% width of its container */
+}
+
+.contact-details p {
+    text-align: center; /* Centers the text */
+    font-weight: 300; /* Lighter font */
+    font-size: 14px; /* Smaller size */
+    color: #003559; /* Dark gray color, easier on the eyes than black */
+    margin: 20px 0; /* Adds top and bottom margin */
+}
+
+
+
